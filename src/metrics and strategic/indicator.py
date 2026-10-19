@@ -119,6 +119,28 @@ def VaR(returns, confidence_level=0.95):
 
     return var_percentile
 
+def CVaR(returns, confidence_level=0.95):
+    """
+    Calculate the Conditional Value at Risk (CVaR) for a given set of returns.
+
+    Parameters:
+    returns (array-like): A list or array of returns.
+    confidence_level (float): The confidence level for the CVaR calculation (default is 0.95).
+
+    Returns:
+    float: The calculated CVaR value.
+    """
+    # Convert returns to a numpy array
+    returns = np.array(returns)
+
+    # Calculate the Value at Risk (VaR)
+    var_value = VaR(returns, confidence_level)
+
+    # Calculate the Conditional Value at Risk (CVaR)
+    cvar_value = np.mean(returns[returns <= var_value])
+
+    return cvar_value
+
 def MDD(returns):
     """
     Calculate the Maximum Drawdown (MDD) for a given set of returns.
