@@ -1,0 +1,975 @@
+code,short_name,name,sector
+1155,MAYBANK,Malayan Banking Bhd.,Finance
+1295,PBBANK,Public Bank Bhd,Finance
+5347,TENAGA,Tenaga Nasional Bhd,Utilities
+1023,CIMB,CIMB Group Holdings Bhd,Finance
+5225,IHH,IHH Healthcare Bhd.,Health services
+8869,PMETAL,Press Metal Aluminium Holdings Berhad,Producer manufacturing
+6742,YTLPOWR,YTL Power International Bhd.,Utilities
+5819,HLBANK,Hong Leong Bank Bhd,Finance
+5285,SDG,SD Guthrie Bhd,Process industries
+5183,PCHEM,PETRONAS Chemicals Group Bhd.,Process industries
+3816,MISC,MISC Bhd,Transportation
+6033,PETGAS,Petronas Gas Bhd.,Utilities
+1066,RHBBANK,RHB Bank Bhd.,Finance
+4863,TM,Telekom Malaysia Bhd.,Communications
+5398,GAMUDA,Gamuda Bhd.,Industrial services
+6947,CDB,CelcomDigi Berhad,Communications
+5211,SUNWAY,Sunway Bhd.,Consumer durables
+1961,IOICORP,IOI Corporation Berhad,Process industries
+6012,MAXIS,Maxis Bhd.,Communications
+5326,99SMART,99 Speed Mart Retail Holdings Bhd,Retail trade
+4677,YTL,YTL Corp Bhd.,Utilities
+5246,WPRTS,Westports Holdings Bhd.,Transportation
+2445,KLK,Kuala Lumpur Kepong Bhd.,Process industries
+1015,AMBANK,AMMB Holdings Bhd.,Finance
+4707,NESTLE,Nestle (Malaysia) Bhd.,Consumer non-durables
+1082,HLFG,Hong Leong Financial Group Bhd.,Finance
+0097,VITROX,Vitrox Corp. Bhd.,Electronic technology
+5681,PETDAG,Petronas Dagangan Bhd.,Distribution services
+2089,UTDPLT,United Plantations Bhd.,Process industries
+5249,IOIPG,IOI Properties Group Bhd.,Finance
+4197,SIME,Sime Darby Bhd.,Distribution services
+6888,AXIATA,Axiata Group Bhd.,Communications
+7084,QL,QL Resources Bhd.,Consumer non-durables
+4065,PPB,PPB Group Bhd.,Process industries
+7277,DIALOG,Dialog Group Bhd.,Industrial services
+5296,MRDIY,MR. D.I.Y. Group (M) Bhd.,Distribution services
+5878,KPJ,KPJ Healthcare Bhd.,Health services
+5263,SUNCON,Sunway Construction Group Bhd.,Industrial services
+3336,IJM,IJM Corporation Berhad,Industrial services
+0166,INARI,Inari Amertron Berhad,Electronic technology
+5031,TIMECOM,TIME dotCom Bhd.,Technology services
+0128,FRONTKN,Frontken Corp. Bhd.,Electronic technology
+5288,SIMEPROP,Sime Darby Property Bhd.,Finance
+3794,MCEMENT,Malayan Cement Bhd,Non-energy minerals
+5337,ECOSHOP,Eco-Shop Marketing Berhad,Retail trade
+3867,MPI,Malaysian Pacific Industries Bhd.,Electronic technology
+5292,UWC,UWC Bhd.,Producer manufacturing
+2488,ABMB,Alliance Bank Malaysia Bhd.,Finance
+0151,KGB,Kelington Group Bhd.,Industrial services
+1899,BKAWAN,Batu Kawan Bhd.,Process industries
+7113,TOPGLOV,Top Glove Corporation Bhd.,Health technology
+3689,F&N,Fraser & Neave Holdings Bhd.,Consumer non-durables
+5273,CHINHIN,Chin Hin Group Bhd,Distribution services
+5005,UNISEM,Unisem (M) Bhd.,Electronic technology
+5209,GASMSIA,Gas Malaysia Bhd.,Utilities
+1818,BURSA,Bursa Malaysia Bhd.,Finance
+3034,HAPSENG,Hap Seng Consolidated Bhd.,Process industries
+0208,GREATEC,Greatech Technology Bhd.,Producer manufacturing
+4715,GENM,Genting Malaysia Bhd.,Consumer services
+8206,ECOWLD,Eco World Development Group Bhd.,Finance
+7293,YINSON,Yinson Holdings Bhd.,Producer manufacturing
+5286,MI,Mi Technovation Bhd.,Producer manufacturing
+4731,SCIENTX,Scientex Bhd.,Process industries
+3182,GENTING,Genting Bhd.,Consumer services
+8621,LPI,LPI Capital Bhd,Finance
+3301,HLIND,Hong Leong Industries Bhd.,Consumer durables
+5185,AFFIN,Affin Bank Bhd.,Finance
+5053,OSK,OSK Holdings Bhd.,Finance
+5126,SOP,Sarawak Oil Palms Bhd.,Process industries
+2291,GENP,Genting Plantations Bhd.,Process industries
+5309,ITMAX,Itmax System Bhd,Commercial services
+0270,NATGATE,Nationgate Holdings Berhad,Electronic technology
+5258,BIMB,Bank Islam Malaysia Bhd.,Finance
+5606,IGBB,IGB Bhd.,Finance
+5323,JPG,Johor Plantations Group Bhd,Process industries
+7161,KERJAYA,Kerjaya Prospek Group Berhad,Industrial services
+4006,ORIENT,Oriental Holdings Bhd.,Retail trade
+1171,MBSB,MBSB Bhd,Finance
+5200,UOADEV,UOA Development Bhd.,Finance
+5272,RANHILL,Ranhill Utilities Bhd.,Utilities
+3255,HEIM,Heineken Malaysia Bhd.,Consumer non-durables
+5168,HARTA,Hartalega Holdings Bhd.,Producer manufacturing
+0215,SLVEST,Solarvest Holdings Bhd,Industrial services
+7160,PENTA,Pentamaster Corp. Bhd.,Producer manufacturing
+2836,CARLSBG,Carlsberg Brewery Malaysia Bhd.,Consumer non-durables
+5264,MALAKOF,Malakoff Corporation Bhd,Utilities
+0225,SCGBHD,Southern Cable Group Bhd.,Producer manufacturing
+8664,SPSETIA,S P Setia Bhd.,Finance
+5306,FFB,Farm Fresh Bhd.,Consumer non-durables
+1163,ALLIANZ,Allianz Malaysia Bhd.,Miscellaneous
+5102,GCB,Guan Chong Bhd.,Consumer non-durables
+5151,HEXTAR,Hextar Global Bhd.,Process industries
+7195,BNASTRA,Binastra Corporation Berhad,Electronic technology
+7153,KOSSAN,Kossan Rubber Industries Bhd.,Producer manufacturing
+5330,TMK,TMK Chemical Bhd,Process industries
+5327,MEGAFB,Mega Fortris Berhad,Producer manufacturing
+9822,SAM,SAM Engineering & Equipment (M) Bhd,Producer manufacturing
+5401,TROP,Tropicana Corp. Bhd.,Finance
+7172,PMBTECH,PMB Technology Bhd.,Producer manufacturing
+5038,KSL,KSL Holdings Bhd.,Finance
+0245,MNHLDG,MN Holdings Bhd.,Industrial services
+5012,TAANN,Ta Ann Holdings Bhd.,Non-energy minerals
+4324,HENGYUAN,Hengyuan Refining Company Bhd,Energy minerals
+3069,MFCB,Mega First Corp. Bhd.,Utilities
+5032,BIPORT,Bintulu Port Holdings Bhd.,Transportation
+6139,TAKAFUL,Syarikat Takaful Malaysia Keluarga Bhd.,Finance
+5027,KMLOONG,Kim Loong Resources Bhd.,Process industries
+5029,FAREAST,Far East Holdings Bhd.,Process industries
+8583,MAHSING,Mah Sing Group Bhd.,Finance
+5136,HEXTECH,Hextar Technologies Solutions Berhad.,Distribution services
+6633,LHI,Leong Hup International Bhd.,Process industries
+5148,UEMS,UEM Sunrise Bhd.,Finance
+5139,AEONCR,AEON Credit Service (M) Bhd.,Finance
+3565,WCEHB,WCE Holdings Berhad,Producer manufacturing
+7103,SPRITZER,Spritzer Bhd.,Consumer non-durables
+5318,DXN,DXN Holdings Bhd,Health technology
+5250,SEM,7-Eleven Malaysia Holdings Bhd,Retail trade
+5313,RADIUM,Radium Development Bhd,Finance
+6459,MNRB,MNRB Holdings Bhd.,Finance
+5210,ARMADA,Bumi Armada Bhd.,Industrial services
+0233,PEKAT,Pekat Group Bhd,Producer manufacturing
+5236,MATRIX,Matrix Concepts Holdings Bhd.,Finance
+0318,ELRIDGE,Elridge Energy Holdings Berhad,Process industries
+3417,E&O,Eastern & Oriental Bhd.,Finance
+5000,HUMEIND,Hume Cement Industries Berhad,Non-energy minerals
+5983,MBMR,MBM Resources Bhd.,Retail trade
+3026,DLADY,Dutch Lady Milk Industries Bhd.,Consumer non-durables
+5138,HSPLANT,Hap Seng Plantations Holdings Bhd.,Process industries
+5199,HIBISCS,Hibiscus Petroleum Bhd.,Energy minerals
+5255,LFG,Lianson Fleet Group Bhd,Industrial services
+3476,KSENG,Keck Seng (Malaysia) Bhd.,Process industries
+0339,CBHB,CBH Engineering Holding Berhad,Utilities
+3859,MAGNUM,Magnum Berhad,Consumer services
+1562,SPTOTO,Sports Toto Berhad,Consumer services
+9687,IDEAL,Ideal Capital Berhad,Finance
+0338,KOPI,Oriental Kopi Holdings Bhd.,Consumer services
+1619,DRBHCOM,DRB-Hicom Bhd.,Consumer durables
+0223,SAMAIDEN,Samaiden Group Bhd,Electronic technology
+5243,VELESTO,Velesto Energy Bhd.,Industrial services
+7233,DUFU,Dufu Technology Corp. Bhd.,Electronic technology
+5162,VSTECS,VSTECS Bhd.,Technology services
+5141,DAYANG,Dayang Enterprise Holdings Bhd.,Industrial services
+4456,DNEX,Dagang NeXchange Berhad,Technology services
+1996,KRETAM,Kretam Holdings Bhd.,Process industries
+3395,BJCORP,Berjaya Corp. Bhd.,Consumer services
+8907,EG,EG Industries Bhd.,Consumer durables
+0045,SSB8,Southern Score Builders Bhd.,Technology services
+9059,TSH,TSH Resources Bhd.,Non-energy minerals
+7106,SUPERMX,Supermax Corp. Bhd.,Distribution services
+5916,MSC,Malaysia Smelting Corp. Bhd.,Producer manufacturing
+0303,ALPHA,Alpha IVF Group Bhd.,Health services
+7105,HCK,HCK Capital Group Berhad,Finance
+9296,RCECAP,RCE Capital Bhd.,Finance
+6599,AEON,AEON Co. (Malaysia) Bhd.,Retail trade
+7187,CHGP,Chin Hin Group Property Bhd.,Consumer durables
+2593,UMCCA,United Malacca Bhd.,Process industries
+6963,VS,V.S. Industry Bhd.,Producer manufacturing
+5069,BLDPLNT,BLD Plantation Bhd.,Process industries
+5161,JCY,JCY International Bhd.,Electronic technology
+0351,LSH,Lim Seong Hai Capital Bhd,Distribution services
+5135,SWKPLNT,Sarawak Plantation Bhd.,Process industries
+2658,AJI,Ajinomoto (Malaysia) Bhd.,Consumer non-durables
+4162,BAT,British American Tobacco Malaysia Bhd.,Consumer non-durables
+7179,LAGENDA,Lagenda Properties Bhd.,Finance
+0056,NCT,NCT Alliance Bhd,Finance
+1287,EXSIMHB,Exsim Hospitality Bhd,Consumer services
+1651,MRCB,Malaysian Resources Corp. Bhd.,Finance
+5321,KEYFIELD,Keyfield International Berhad,Miscellaneous
+0265,INFOM,Infomina Bhd,Technology services
+7100,UCHITEC,Uchi Technologies Bhd.,Electronic technology
+7081,PHARMA,Pharmaniaga Bhd.,Distribution services
+7148,DPHARMA,Duopharma Biotech Bhd.,Health technology
+7052,PADINI,Padini Holdings Bhd.,Retail trade
+5248,BAUTO,Bermaz Auto Berhad,Retail trade
+5271,PECCA,Pecca Group Bhd.,Process industries
+6718,CRESNDO,Crescendo Corp. Bhd.,Finance
+0295,MTEC,Master Tec Group Bhd,Miscellaneous
+1929,CHINTEK,Chin Teck Plantations Bhd.,Process industries
+0291,CHB,Critical Holdings Bhd.,Industrial services
+0168,BMGREEN,BM GreenTech Bhd,Producer manufacturing
+5908,DKSH,DKSH Holdings (Malaysia) Bhd.,Transportation
+5099,CAPITALA,Capital A Berhad,Transportation
+2852,CMSB,Cahya Mata Sarawak Bhd.,Non-energy minerals
+5071,COASTAL,Coastal Contracts Bhd.,Producer manufacturing
+3042,PETRONM,Petron Malaysia Refining & Marketing Bhd.,Energy minerals
+0273,VLB,Vestland Bhd,Industrial services
+5302,ATECH,Aurelius Technologies Bhd.,Electronic technology
+2429,TANCO,Tanco Holdings Bhd.,Finance
+5320,PLINTAS,Prolintas Infra Business Trust,Industrial services
+6262,INNO,Innoprise Plantations Bhd.,Process industries
+5317,CPETECH,CPE Technology Bhd,Producer manufacturing
+8052,CGB,Central Global Bhd,Consumer durables
+7246,SIGN,Signature International Bhd.,Miscellaneous
+7180,SERNKOU,Sern Kou Resources Bhd.,Consumer durables
+4758,ANCOMNY,Ancom Nylex Bhd,Process industries
+4383,JTIASA,Jaya Tiasa Holdings Bhd.,Non-energy minerals
+7241,NGGB,Nextgreen Global Bhd,Finance
+5301,CTOS,CTOS Digital Bhd,Commercial services
+5173,SYGROUP,Shin Yang Group Bhd,Transportation
+0259,SNS,SNS Network Technology Bhd.,Technology services
+5293,AME,AME Elite Consortium Berhad,Consumer durables
+5335,HI,Hi Mobility Bhd.,Transportation
+3905,MULPHA,Mulpha International Bhd.,Consumer services
+0112,MIKROMB,Mikro MSC Bhd.,Electronic technology
+9792,SEG,SEG International Bhd.,Commercial services
+3239,BJASSET,Berjaya Assets Bhd.,Consumer services
+5827,OIB,Oriental Interest Bhd.,Industrial services
+0325,NE,Northeast Group Bhd,Producer manufacturing
+0078,GDEX,GDEX Bhd,Transportation
+0099,SCICOM,Scicom (MSC) Bhd.,Commercial services
+0146,JFTECH,JF Technology Bhd.,Electronic technology
+3662,MFLOUR,Malayan Flour Mills Bhd.,Process industries
+0101,TMCLIFE,TMC Life Sciences Bhd.,Health services
+5328,LWSABAH,Life Water Bhd.,Consumer non-durables
+5218,VANTNRG,Vantris Energy Bhd,Industrial services
+5284,LCTITAN,Lotte Chemical Titan Holdings Bhd,Process industries
+0242,PPJACK,Pappajack Bhd,Finance
+5274,HLCAP,Hong Leong Capital Bhd.,Finance
+6491,KFIMA,Kumpulan Fima Bhd.,Process industries
+6971,KOBAY,Kobay Technology Bhd.,Producer manufacturing
+7048,ATLAN,Atlan Holdings Bhd.,Commercial services
+0310,UUE,UUE Holdings Berhad,Industrial services
+5184,CYPARK,Cypark Resources Bhd.,Utilities
+5325,WELLCHIP,Well Chip Group Bhd.,Retail trade
+0098,AUMAS,Aumas Resources Bhd,Non-energy minerals
+7010,PTT,PTT Synergy Group Bhd.,Distribution services
+0161,HEXIND,Hextar Industries Bhd,Producer manufacturing
+5024,HUPSENG,Hup Seng Industries Bhd.,Consumer non-durables
+6351,AMWAY,Amway (Malaysia) Holdings Bhd.,Retail trade
+5517,SHANG,Shangri-La Hotels Malaysia Bhd.,Consumer services
+5001,MIECO,Mieco Chipboard Bhd.,Non-energy minerals
+5665,SSTEEL,Southern Steel Bhd.,Non-energy minerals
+5041,PBA,PBA Holdings Bhd.,Utilities
+0360,SAG,Signature Alliance Group Berhad,Commercial services
+5319,MKHOP,MKH Oil Palm (East Kalimantan) Bhd,Process industries
+0293,KJTS,KJTS Group Berhad,Commercial services
+0240,CORAZA,Coraza Integrated Technology Bhd,Producer manufacturing
+0239,ECOMATE,Ecomate Holdings Bhd.,Consumer durables
+7087,MAGNI,Magni-Tech Industries Bhd.,Consumer non-durables
+0217,PWRWELL,Powerwell Holdings Bhd.,Producer manufacturing
+7192,GIIB,GIIB Holdings Bhd,Producer manufacturing
+3379,INSAS,Insas Bhd.,Technology services
+0251,SFPTECH,SFP Tech Holdings Bhd,Industrial services
+2305,AYER,AYER Holdings Bhd,Finance
+1724,PARAMON,Paramount Corp. Bhd.,Finance
+0326,SORENTO,Sorento Capital Bhd.,Finance
+0138,ZETRIX,Zetrix AI Bhd,Technology services
+7245,CITAGLB,Citaglobal Bhd,Industrial services
+5075,PLENITU,Plenitude Bhd.,Finance
+7095,PIE,P.I.E. Industrial Bhd.,Electronic technology
+0246,CNERGEN,Cnergenz Bhd.,Electronic technology
+5789,LBS,LBS Bina Group Bhd.,Finance
+0292,JTGROUP,Jati Tinggi Group Bhd,Industrial services
+1058,MANULFE,Manulife Holdings Bhd.,Finance
+7034,TGUAN,Thong Guan Industries Bhd.,Process industries
+7231,WELLCAL,Wellcall Holdings Bhd.,Producer manufacturing
+2569,SBAGAN,Sungei Bagan Rubber Co. (Malaya) Bhd.,Process industries
+6017,SHL,SHL Consolidated Bhd.,Finance
+5186,MHB,Malaysia Marine & Heavy Engineering Holdings Bhd.,Industrial services
+7204,D&O,D&O Green Technologies Bhd.,Electronic technology
+5084,IBRACO,Ibraco Bhd.,Finance
+0002,KOTRA,Kotra Industries Bhd.,Health technology
+5331,PGLOBAL,Pantech Global Bhd.,Non-energy minerals
+5142,WASCO,Wasco Berhad,Non-energy minerals
+5125,PANTECH,Pantech Group Holdings Bhd.,Non-energy minerals
+7609,AJIYA,Ajiya Bhd.,Distribution services
+6939,FIAMMA,Fiamma Holdings Bhd.,Retail trade
+3174,L&G,Land & General Bhd.,Finance
+0196,QES,Qes Group Bhd,Electronic technology
+0198,GDB,GDB Holdings Bhd.,Consumer durables
+3611,PGLOBE,Paragon Globe Berhad,Finance
+8877,EKOVEST,Ekovest Bhd.,Industrial services
+7197,GESHEN,Ge-Shen Corp. Bhd.,Process industries
+7243,MAGMA,Magma Group Bhd,Finance
+0359,HKB,Hartanah Kenyalang Bhd,Industrial services
+7035,CCK,CCK Consolidated Holdings Bhd.,Retail trade
+7155,SKPRES,SKP Resources Bhd.,Producer manufacturing
+5336,CKI,Cuckoo International (Mal) Bhd,Consumer durables
+5015,APM,APM Automotive Holdings Bhd.,Producer manufacturing
+5329,AZAMJAYA,Azam Jaya Bhd,Industrial services
+5308,SENFONG,Seng Fong Holdings Bhd,Producer manufacturing
+2062,HARBOUR,Harbour-Link Group Bhd.,Transportation
+0230,TELADAN,Teladan Group Bhd,Finance
+7076,CBIP,CB Industrial Product Holding Bhd.,Producer manufacturing
+0311,GOHUB,GO Hub Capital Berhad,Technology services
+8524,TALIWRK,Taliworks Corp. Bhd.,Utilities
+7167,ABLEGLOB,Able Global Bhd,Process industries
+9679,WCT,WCT Holdings Bhd.,Industrial services
+7252,TEOSENG,Teo Seng Capital Bhd.,Process industries
+6432,APOLLO,Apollo Food Holdings Bhd.,Consumer non-durables
+0172,OCK,OCK Group Bhd.,Industrial services
+7237,PWROOT,Power Root Bhd.,Consumer non-durables
+5094,CSCSTEL,CSC Steel Holdings Bhd.,Producer manufacturing
+5143,LUXCHEM,Luxchem Corp. Bhd.,Distribution services
+1694,MENANG,Menang Corporation (M) Berhad,Industrial services
+0296,HEGROUP,HE Group Bhd,Producer manufacturing
+5202,MSM,MSM Malaysia Holdings Bhd.,Process industries
+5112,THPLANT,TH Plantations Bhd.,Process industries
+6483,KENANGA,Kenanga Investment Bank Bhd.,Finance
+4723,JAKS,JAKS Resources Bhd.,Industrial services
+5080,POHKONG,Poh Kong Holdings Bhd.,Consumer durables
+6378,BEDI,BEDI Berhad,Finance
+2755,FCW,FCW Holdings Bhd.,Consumer non-durables
+5247,KAREX,Karex Bhd.,Producer manufacturing
+7121,XL,XL Holdings Bhd,Process industries
+4243,WTK,WTK Holdings Bhd.,Non-energy minerals
+5134,SAB,Southern Acids (Malaysia) Bhd.,Miscellaneous
+0271,WELLS,Wellspire Holdings Bhd.,Distribution services
+0340,NORTHERN,Northern Solar Holdings Bhd.,Industrial services
+5072,HIAPTEK,Hiap Teck Venture Bhd.,Distribution services
+5008,HARISON,Harrisons Holdings Malaysia Bhd.,Distribution services
+8397,TNLOGIS,Tiong Nam Logistics Holdings Bhd.,Transportation
+5228,ELKDESA,ELK-Desa Resources Bhd.,Finance
+7174,CAB,CAB Cakaran Corp. Bhd.,Process industries
+0368,OXB,Oxford Innotech Bhd.,Producer manufacturing
+2453,KLUANG,Kluang Rubber Co. (Malaya) Bhd.,Process industries
+0366,ICENTS,Icents Group Holdings Berhad,Commercial services
+0308,KTI,KTI Landmark Bhd.,Finance
+0247,UNITRAD,Unitrade Industries Bhd,Distribution services
+5259,AVANGAAD,Avangaad Bhd,Transportation
+5056,ENGTEX,Engtex Group Bhd.,Producer manufacturing
+6521,SURIA,Suria Capital Holdings Bhd.,Transportation
+0001,SCOMNET,Supercomnet Technologies Bhd.,Producer manufacturing
+0275,OPPSTAR,Oppstar Berhad,Electronic technology
+5010,TONGHER,Tong Herr Resources Bhd.,Producer manufacturing
+0286,EMCC,Evergreen Max Cash Capital Bhd,Retail trade
+0248,YEWLEE,Yew Lee Pacific Group Bhd.,Producer manufacturing
+3557,ECOFIRS,EcoFirst Consolidated Bhd,Finance
+4251,IBHD,I-Berhad,Finance
+2038,NSOP,Negri Sembilan Oil Palms Bhd.,Process industries
+5132,DELEUM,Deleum Bhd.,Distribution services
+0012,3A,Three-A Resources Bhd.,Consumer non-durables
+9466,KKB,KKB Engineering Bhd.,Non-energy minerals
+0235,NESTCON,Nestcon Bhd,Consumer durables
+7229,FAVCO,Favelle Favco Bhd.,Producer manufacturing
+8117,PGF,PGF Capital Bhd,Non-energy minerals
+3107,FIMACOR,Fima Corp. Bhd.,Process industries
+0321,SDCG,Solar District Cooling Group Bhd.,Industrial services
+2097,MBRIGHT,Meta Bright Group Bhd,Consumer services
+5315,SKYWLD,Skyworld Development Bhd,Finance
+7163,PJBUMI,PJBUMI BERHAD,Finance
+2054,TDM,TDM Bhd.,Process industries
+5073,NAIM,Naim Holdings Bhd.,Industrial services
+5006,VARIA,Varia Berhad,Finance
+5332,REACHTEN,Reach Ten Holdings Berhad,Communications
+5026,MHC,MHC Plantations Bhd.,Process industries
+2828,CIHLDG,C.I. Holdings Bhd.,Producer manufacturing
+0127,JHM,JHM Consolidation Bhd.,Electronic technology
+7210,FM,FM Global Logistics Holdings Bhd,Transportation
+5171,KIMLUN,Kimlun Corp. Bhd.,Industrial services
+0037,RGB,RGB International Bhd.,Consumer durables
+3719,PANAMY,Panasonic Manufacturing Malaysia Bhd.,Consumer durables
+6556,ANNJOO,Ann Joo Resources Bhd.,Producer manufacturing
+0236,RAMSSOL,Ramssol Group Bhd.,Technology services
+8311,PESONA,Pesona Metro Holdings Bhd.,Industrial services
+5310,KITACON,Kumpulan Kitacon Berhad,Consumer durables
+0345,SUNLOGY,ES Sunlogy Berhad,Industrial services
+8435,CEPCO,Concrete Engineering Products Bhd.,Non-energy minerals
+5131,ZHULIAN,Zhulian Corporation Bhd.,Producer manufacturing
+5105,CANONE,Can-One Bhd.,Process industries
+5113,RSAWIT,Rimbunan Sawit Bhd.,Process industries
+8419,PANSAR,Pansar Bhd.,Distribution services
+4286,SEAL,Seal Incorporated Berhad,Finance
+0095,MAG,MAG Holdings Berhad,Process industries
+0157,FOCUSP,Focus Point Holdings Bhd.,Retail trade
+0287,SSF,SSF Home Group Bhd,Retail trade
+7133,ULICORP,United U-LI Corp. Bhd.,Producer manufacturing
+5077,MAYBULK,Maybulk Bhd,Transportation
+5303,SWIFT,Swift Haulage Berhad,Transportation
+7108,PERDANA,Perdana Petroleum Bhd.,Transportation
+5283,EWICAP,EWI Capital Bhd,Finance
+5843,KPS,Kumpulan Perangsang Selangor Bhd.,Utilities
+0263,BETA,Betamek Bhd,Electronic technology
+5191,TAMBUN,Tambun Indah Land Bhd.,Finance
+7501,HARNLEN,Harn Len Corporation Bhd.,Consumer durables
+5703,MUHIBAH,Muhibbah Engineering (M) Bhd.,Industrial services
+0181,AEMULUS,Aemulus Holdings Bhd.,Electronic technology
+7082,M&A,M & A Equity Holdings Bhd,Finance
+5196,BJFOOD,Berjaya Food Bhd.,Consumer services
+0297,TSA,TSA Group Bhd,Distribution services
+9172,FPI,Formosa Prosonic Industries Bhd.,Producer manufacturing
+0083,NOTION,Notion VTec Bhd.,Producer manufacturing
+7249,SKYGATE,Skygate Solutions Bhd,Finance
+5049,CVIEW,Country View Bhd.,Finance
+5275,MYNEWS,Mynews Holdings Bhd,Distribution services
+7215,NIHSIN,Ni Hsin Group Bhd,Consumer durables
+2135,GOPENG,Gopeng Bhd.,Process industries
+0060,HM,Harvest Miracle Capital Bhd,Technology services
+5140,TASCO,TASCO Bhd,Transportation
+5239,TITIJYA,Titijaya Land Bhd.,Finance
+7178,YSPSAH,Y.S.P. Southeast Asia Holding Bhd.,Health technology
+9571,MITRA,Mitrajaya Holdings Bhd.,Industrial services
+0222,OPTIMAX,Optimax Holdings Bhd.,Health services
+0266,LEFORM,Leform Bhd,Non-energy minerals
+5311,CEB,Cape EMS Bhd,Electronic technology
+0367,ENPRO,Enproserve Group Bhd.,Consumer services
+7225,PA,P.A. Resources Berhad,Non-energy minerals
+0298,WENTEL,Wentel Engineering Holdings Bhd.,Producer manufacturing
+6399,ASTRO,Astro Malaysia Holdings Bhd.,Consumer services
+0024,JAG,JAG Berhad,Industrial services
+0032,REDTONE,REDtone Digital Berhad,Communications
+0277,CLOUDPT,Cloudpoint Technology Bhd,Technology services
+5166,CYBERE,Cyberjaya Education Group Bhd,Consumer services
+0262,SUNVIEW,Sunview Group Bhd,Industrial services
+0206,NADIBHD,Gagasan Nadi Cergas Bhd.,Consumer durables
+7617,MAGNA,Magna Prima Bhd.,Finance
+5078,M&G,Marine & General Bhd,Industrial services
+4502,MEDIA,Media Prima Bhd.,Consumer services
+5614,NHB,NuEnergy Holdings Bhd,Utilities
+3743,SUNSURIA,Sunsuria Berhad,Finance
+0285,MERSEC,Mercury Securities Group Bhd.,Finance
+7211,TAFI,TAFI Industries Bhd.,Consumer durables
+0328,3REN,3Ren Bhd,Producer manufacturing
+7129,ASIAFLE,Asia File Corporation Bhd.,Process industries
+0089,TEXCYCL,Tex Cycle Technology (M) Bhd.,Industrial services
+0192,INTA,Inta Bina Group Bhd.,Consumer durables
+0278,EDELTEQ,Edelteq Holdings Bhd,Electronic technology
+0276,ADB,Autocount Dotcom Bhd,Technology services
+7107,OFI,Oriental Food Industries Holdings Bhd.,Consumer non-durables
+0337,SET,Swift Energy Technology Bhd.,Distribution services
+7228,T7GLOBAL,T7 Global Berhad,Industrial services
+8982,CEPAT,Cepatwawasan Group Bhd.,Process industries
+5020,GLOMAC,Glomac Bhd.,Finance
+0185,HSSEB,HSS Engineers Bhd.,Industrial services
+8567,SALCON,Salcon Bhd.,Distribution services
+7230,TOMEI,Tomei Consolidated Bhd.,Consumer durables
+0058,JCBNEXT,JcbNext Bhd.,Commercial services
+4995,VERSATL,Versatile Creative Bhd.,Process industries
+7854,TIMWELL,Timberwell Bhd.,Non-energy minerals
+7216,KAWAN,Kawan Food Bhd.,Consumer non-durables
+5147,SAMCHEM,Samchem Holdings Bhd.,Distribution services
+0249,LGMS,LGMS Bhd,Technology services
+6769,JKGLAND,JKG Land Bhd.,Finance
+7595,MGB,MGB Bhd,Consumer durables
+5220,GLOTEC,Globaltec Formation Bhd.,Producer manufacturing
+5066,NTPM,NTPM Holdings Bhd.,Consumer non-durables
+7162,ASTINO,Astino Bhd.,Producer manufacturing
+7077,KPPROP,Kerjaya Prospek Property Bhd.,Finance
+3948,DUTALND,DutaLand Bhd.,Process industries
+5300,YENHER,Yenher Holdings Bhd.,Process industries
+3298,HEXZA,Hexza Corp. Bhd.,Process industries
+5289,TECHBND,Techbond Group Bhd.,Process industries
+8443,HIL,HIL Industries Bhd.,Producer manufacturing
+7004,MCEHLDG,MCE Holdings Bhd.,Producer manufacturing
+7579,AWC,AWC Berhad,Commercial services
+0329,METRO,Metro Healthcare Bhd.,Health services
+5100,BPPLAS,BP Plastics Holding Bhd.,Process industries
+7134,PWF,PWF Corp. Bhd.,Process industries
+0212,SDS,SDS Group Bhd.,Consumer non-durables
+5007,CHINWEL,Chin Well Holdings Bhd.,Producer manufacturing
+0363,PMCK,PMCK Berhad,Health services
+7060,NHFATT,New Hoong Fatt Holdings Bhd.,Producer manufacturing
+5133,PENERGY,Petra Energy Bhd.,Industrial services
+7250,UZMA,Uzma Bhd.,Industrial services
+5159,YOCB,Yoong Onn Corp. Bhd.,Consumer durables
+5277,FPGROUP,Foundpac Group Bhd.,Electronic technology
+3883,MUDA,Muda Holdings Bhd.,Process industries
+0104,GENETEC,Genetec Technology Bhd.,Producer manufacturing
+0186,PTRANS,Perak Transit Bhd.,Transportation
+6084,STAR,Star Media Group Berhad,Consumer services
+9598,PTARAS,Pintaras Jaya Bhd.,Industrial services
+9334,KESM,KESM Industries Bhd.,Commercial services
+7091,UNIMECH,Unimech Group Bhd.,Producer manufacturing
+8893,MKLAND,MK Land Holdings Bhd.,Finance
+7217,EMETALL,Eonmetall Group Bhd.,Non-energy minerals
+0336,WINSTAR,Winstar Capital Bhd.,Non-energy minerals
+5932,BPURI,Bina Puri Holdings Bhd.,Industrial services
+0299,AGX,AGX Group Bhd.,Transportation
+2542,RVIEW,Riverview Rubber Estates Bhd.,Process industries
+0267,ECA,ECA Integrated Solution Bhd,Electronic technology
+9431,SJC,Seni Jaya Corp. Bhd.,Commercial services
+0090,ELSOFT,Elsoft Research Bhd.,Commercial services
+0361,PMIBHD,Pan Merchant Bhd,Producer manufacturing
+4634,POS,Pos Malaysia Bhd.,Transportation
+9326,LBALUM,LB Aluminium Bhd.,Non-energy minerals
+7202,HEXRTL,Hextar Retail Bhd,Consumer durables
+5182,AVALAND,AVALAND Bhd,Finance
+7006,RKI,Rhong Khen International Bhd,Consumer durables
+0355,FIBRO,Fibromat (M) Bhd.,Process industries
+7083,ANALABS,Analabs Resources Bhd.,Process industries
+0357,OHM,Oasis Home Holding Bhd,Technology services
+0307,KENERGY,Kawan Renergy Bhd.,Industrial services
+4022,MAXIM,Maxim Global Bhd.,Non-energy minerals
+5160,HOMERIZ,Homeritz Corp. Bhd.,Consumer durables
+2607,INCKEN,Inch Kenneth Kajang Rubber Plc,Consumer services
+5208,EITA,EITA Resources Bhd.,Producer manufacturing
+5657,PARKSON,Parkson Holdings Bhd.,Retail trade
+5253,ECONBHD,Econpile Holdings Bhd,Industrial services
+9113,ICONIC,Iconic Worldwide Bhd.,Consumer services
+5205,SENDAI,Eversendai Corp Bhd.,Industrial services
+1589,IWCITY,Iskandar Waterfront City Berhad,Industrial services
+8273,PPHB,Public Packages Holdings Bhd.,Process industries
+0148,SUNZEN,Sunzen Group Bhd,Health technology
+5322,FEYTECH,Feytech Holdings Bhd,Producer manufacturing
+9385,LAYHONG,Lay Hong Bhd.,Process industries
+5085,MUDAJYA,Mudajaya Group Bhd.,Industrial services
+0323,CREST,Crest Group Bhd.,Health technology
+5145,SEALINK,Sealink International Bhd.,Producer manufacturing
+7115,SKBSHUT,SKB Shutters Corp. Bhd.,Producer manufacturing
+0189,MATANG,Matang Bhd.,Process industries
+7071,OCR,OCR Group Bhd,Finance
+2224,SDRED,Selangor Dredging Bhd.,Finance
+5230,TUNEPRO,Tune Protect Group Bhd.,Finance
+5204,AWANTEC,AwanBiru Technology Bhd.,Technology services
+4057,ASIAPAC,Asian Pac Holdings Bhd.,Finance
+0358,ICTZONE,ICT Zone Asia Bhd.,Technology services
+9954,RGTBHD,RGT Bhd.,Process industries
+7088,POHUAT,Poh Huat Resources Holdings Bhd.,Producer manufacturing
+0257,UNIQUE,Unique Fire Holdings Bhd,Producer manufacturing
+9288,BONIA,Bonia Corp. Bhd.,Retail trade
+0353,WESTRVR,West River Bhd.,Industrial services
+8176,WAVEFRNT,WaveFront Bhd,Process industries
+0108,N2N,N2N Connect Bhd.,Technology services
+0100,ESCERAM,ES Ceramics Technology Bhd.,Non-energy minerals
+7668,BESHOM,BesHom Holdings Bhd,Retail trade
+7757,UPA,UPA Corporation Bhd.,Process industries
+1481,ASB,Advance Synergy Bhd.,Consumer services
+5278,RHONEMA,Rhone Ma Holdings Bhd.,Process industries
+0010,IRIS,IRIS Corp. Bhd.,Electronic technology
+3158,YNHPROP,YNH Property Bhd.,Finance
+7935,MILUX,Milux Corp. Bhd.,Consumer durables
+0365,A1AKK,A1 A.K. Koh Group Bhd.,Distribution services
+0119,APPASIA,AppAsia Bhd,Technology services
+0167,MCLEAN,MClean Technologies Bhd.,Commercial services
+0107,EDUSPEC,Eduspec Holdings Bhd.,Consumer services
+0304,FPHB,Farm Price Holdings Bhd.,Distribution services
+0313,BWYS,BWYS Group Bhd,Producer manufacturing
+7022,GTRONIC,Globetronics Technology Bhd.,Electronic technology
+5028,HTPADU,HeiTech Padu Bhd.,Technology services
+0120,VIS,VisDynamics Holdings Bhd.,Electronic technology
+0175,HHRG,HHRG BERHAD,Non-energy minerals
+5054,TRC,TRC Synergy Bhd.,Industrial services
+7198,DPS,DPS Resources Bhd.,Finance
+7235,SUPERLN,Superlon Holdings Bhd.,Process industries
+6009,P&O,Pacific & Orient Bhd.,Finance
+0209,AIMFLEX,Aimflex Bhd.,Technology services
+0341,COLFORM,Colform Group Berhad,Non-energy minerals
+7139,NICE,Niche Capital Emas Holdings Bhd.,Consumer durables
+0213,MTAG,MTAG Group Berhad,Commercial services
+7085,LTKM,LTKM Bhd.,Process industries
+7207,SUCCESS,Success Transformer Corp. Bhd.,Producer manufacturing
+0008,WILLOW,Willowglen MSC Bhd.,Electronic technology
+5098,MASTEEL,Malaysia Steel Works (KL) Bhd.,Non-energy minerals
+0300,SBH,SBH Marine Holdings Bhd.,Consumer non-durables
+0349,SUMI,Sumisaujana Group Berhad,Miscellaneous
+0331,CRPMATE,Cropmate Bhd.,Process industries
+3204,GKENT,George Kent (Malaysia) Bhd.,Industrial services
+5305,SENHENG,Senheng New Retail Berhad,Retail trade
+5276,DANCO,Dancomech Holdings Bhd,Distribution services
+7528,DKLS,DKLS Industries Bhd.,Non-energy minerals
+0302,TOPMIX,Topmix Bhd,Producer manufacturing
+7170,LFECORP,LFE Corporation Bhd,Industrial services
+7079,TWL,TWL Holdings Bhd,Distribution services
+0243,CENGILD,Cengild Medical Bhd.,Health services
+0039,GFM,GFM Services Bhd.,Commercial services
+0040,OPENSYS,OpenSys (M) Bhd.,Technology services
+0111,K1,K-One Technology Bhd.,Electronic technology
+0268,L&PBHD,L&P Global Berhad,Commercial services
+7013,HUBLINE,Hubline Bhd.,Transportation
+7212,DESTINI,Destini Bhd.,Producer manufacturing
+5172,SINARAN,Sinaran Advance Group Bhd,Consumer non-durables
+0348,CLITE,Chemlite Innovation Berhad,Process industries
+7043,XIN,XIN Synergy Grp Bhd,Non-energy minerals
+5088,APEX,Apex Equity Holdings Bhd.,Finance
+6149,METROD,Metrod Holdings Bhd.,Producer manufacturing
+7773,EPMB,EP Manufacturing Bhd.,Producer manufacturing
+0260,PTRB,PT Resources Holdings Bhd.,Consumer non-durables
+7140,OKA,OKA Corporation Bhd.,Non-energy minerals
+7089,LIIHEN,Lii Hen Industries Bhd.,Consumer durables
+9407,PARAGON,Paragon Union Bhd.,Producer manufacturing
+7239,SCNWOLF,Scanwolf Corp. Bhd.,Consumer durables
+0220,OVH,Ocean Vantage Holdings Bhd.,Industrial services
+0201,NOVA,Nova Wellness Group Bhd.,Health technology
+5371,KIMHIN,Kim Hin Industry Bhd.,Producer manufacturing
+6904,SUBUR,Subur Tiasa Holdings Bhd.,Non-energy minerals
+0228,HPPHB,HPP Holdings Bhd,Process industries
+7169,DOMINAN,Dominant Enterprise Bhd.,Non-energy minerals
+8613,ENRA,ENRA Group Bhd.,Commercial services
+6998,BINTAI,Bintai Kinden Corp. Bhd.,Industrial services
+9261,GADANG,Gadang Holdings Bhd.,Industrial services
+6912,PASDEC,Pasdec Holdings Bhd.,Finance
+4847,EPICON,Epicon Bhd,Consumer services
+7412,SHH,SHH Resources Holdings Bhd.,Consumer durables
+5195,CENSOF,Censof Holdings Bhd.,Technology services
+0176,KRONO,Kronologi Asia Bhd.,Technology services
+6181,MALTON,Malton Bhd.,Finance
+5219,PESTEC,Pestec International Berhad,Industrial services
+7199,KEINHIN,Kein Hing International Bhd.,Producer manufacturing
+5232,LEONFB,Leon Fuat Bhd.,Non-energy minerals
+0023,IFCAMSC,IFCA MSC Bhd.,Technology services
+0290,PANDA,Panda Eco System Bhd,Technology services
+1538,SYMLIFE,Symphony Life Bhd.,Finance
+3891,MUIIND,Malayan United Industries Bhd.,Consumer services
+0007,PUC,PUC Bhd,Commercial services
+0269,DSS,DS Sigma Holdings Berhad,Process industries
+6203,KHEESAN,Khee San Bhd.,Consumer non-durables
+0207,MESTRON,Mestron Holdings Bhd.,Producer manufacturing
+2143,ECM,ECM Libra Group Bhd.,Consumer services
+3913,MUIPROP,MUI Properties Bhd.,Finance
+3514,MARCO,Marco Holdings Bhd.,Distribution services
+7120,AXTERIA,Axteria Group Bhd,Finance
+8303,LOTUS,Lotus Kfm Bhd,Process industries
+0026,NOVAMSC,Nova MSC Bhd.,Technology services
+2127,COMFORT,Comfort Gloves Bhd.,Producer manufacturing
+0173,CATCHA,Catcha Digital Bhd,Commercial services
+0450,MFGROUP,Manforce Group Bhd.,Commercial services
+0272,TTVHB,TT Vision Holdings Bhd.,Electronic technology
+7047,FBG,FBG Holdings Berhad,Industrial services
+5316,MSTGOLF,MST Golf Group Bhd,Retail trade
+0219,RL,Reservoir Link Energy Bhd,Industrial services
+8702,TEXCHEM,Texchem Resources Bhd.,Distribution services
+0241,TAGHILL,Taghill Holdings Bhd,Industrial services
+6815,EUPE,EUPE Corp. Bhd.,Finance
+0356,PEOPLE,PEOPLElogy Bhd,Technology services
+5281,ADVCON,Advancecon Holdings Bhd.,Industrial services
+5009,WTHORSE,White Horse Bhd.,Producer manufacturing
+9873,PRESTAR,Prestar Resources Bhd.,Producer manufacturing
+0053,OSKVI,OSK Ventures International Bhd.,Miscellaneous
+9962,GMUTUAL,Gromutual Bhd.,Finance
+2259,TALAMT,Talam Transform Berhad,Finance
+0256,UMC,UMediC Group Bhd.,Health technology
+7165,VELOCITY,VELOCITY CAPITAL PARTNER Bhd,Producer manufacturing
+8648,JASKITA,Jasa Kita Bhd.,Distribution services
+7117,CJCEN,CJ Century Logistics Holdings Bhd.,Transportation
+0305,SINKUNG,Sin-Kung Logistics Bhd.,Transportation
+5115,ALAM,Alam Maritim Resources Bhd.,Industrial services
+8591,CRESBLD,Crest Builder Holdings Bhd.,Industrial services
+7055,PLB,PLB Engineering Bhd.,Consumer durables
+7374,TIENWAH,Tien Wah Press Holdings Bhd.,Commercial services
+9237,SCIB,Sarawak Consolidated Industries Bhd.,Non-energy minerals
+0105,ASIAPLY,Asia Poly Holdings Bhd.,Producer manufacturing
+9199,LYSAGHT,Lysaght Galvanized Steel Bhd.,Non-energy minerals
+0227,EFRAME,Econframe Bhd,Producer manufacturing
+5797,CHOOBEE,Choo Bee Metal Industries Bhd.,Non-energy minerals
+5436,PERSTIM,Perusahaan Sadur Timah Malaysia (Perstima) Bhd.,Non-energy minerals
+0131,DFX,Divfex Bhd,Technology services
+5101,EVERGRN,Evergreen Fibreboard Bhd.,Producer manufacturing
+6602,BCB,BCB BHD,Finance
+5576,MINHO,Minho (Malaysia) Bhd.,Non-energy minerals
+9695,PLS,PLS Plantations Bhd.,Industrial services
+5021,AYS,AYS Ventures Bhd.,Distribution services
+5295,INNATURE,Innature bhd,Retail trade
+0319,VTC,VETECE Holdings Berhad,Technology services
+0035,HEXCAP,Hextar Capital Bhd,Producer manufacturing
+5257,CARIMIN,Carimin Petroleum Bhd,Industrial services
+0279,SYNERGY,Synergy House Bhd,Consumer durables
+7232,RESINTC,Resintech Bhd.,Producer manufacturing
+0180,KTC,Kim Teck Cheong Consolidated Bhd.,Transportation
+0261,COSMOS,Cosmos Technology International Bhd,Producer manufacturing
+0289,PLYTEC,PLYTEC Holding Berhad,Distribution services
+0479,RPLANET,RedPlanet Bhd,Industrial services
+0028,SCOPE,Scope Industries Bhd.,Electronic technology
+7200,TEKSENG,Tek Seng Holdings Bhd.,Process industries
+7208,EURO,Euro Holdings Bhd.,Consumer durables
+0327,OBHB,OB Holdings Bhd,Commercial services
+7036,BORNOIL,Borneo Oil Bhd.,Consumer services
+0330,SUPREME,Supreme Consolidated Resources Bhd,Distribution services
+4316,SHCHAN,Sin Heng Chan (Malaya) Bhd.,Process industries
+0343,TECHSTORE,TECHSTORE BERHAD,Electronic technology
+0136,GREENYB,Greenyield Bhd.,Producer manufacturing
+9121,KPSCB,KPS Consortium Bhd.,Distribution services
+0346,SALIRAN,Saliran Group Bhd,Distribution services
+5025,AURO,AURO Holdings Bhd,Non-energy minerals
+5673,JSB,Jentayu Sustainables Bhd.,Distribution services
+0281,DAY3,Daythree Digital Bhd,Commercial services
+0202,RGTECH,Radiant Globaltech Bhd.,Technology services
+7054,AASIA,Astral Asia Bhd.,Process industries
+0065,EFORCE,Excel Force MSC Bhd.,Technology services
+5070,PRTASCO,Protasco Bhd.,Industrial services
+0317,EPB,EPB Group Berhad,Producer manufacturing
+0258,AGMO,Agmo Holdings Bhd.,Technology services
+7029,MASTER,Master-Pack Group Bhd.,Process industries
+6807,PUNCAK,Puncak Niaga Holdings Bhd.,Utilities
+0126,MICROLN,Microlink Solutions Bhd.,Distribution services
+5260,OWG,Only World Group Holdings Bhd.,Consumer services
+0250,YXPM,YX Precious Metals Bhd,Consumer durables
+0153,OVERSEA,Oversea Enterprise Bhd.,Consumer services
+0284,GLXT,Glostrext Bhd,Industrial services
+0309,AGRICOR,Agricore CS Holdings Bhd,Distribution services
+5226,GBGAQRS,Gabungan AQRS Bhd.,Industrial services
+0335,CARLORINO,Carlo Rino Group Bhd,Retail trade
+7439,TECGUAN,Teck Guan Perdana Bhd.,Process industries
+2674,ALCOM,Alcom Group Bhd.,Non-energy minerals
+9016,EKSONS,Eksons Corp. Bhd.,Finance
+0205,DPIH,DPI Holdings Bhd.,Process industries
+5592,GCE,Grand Central Enterprises Bhd.,Consumer services
+7471,EDEN,Eden Inc. Berhad,Utilities
+5079,ONEGLOVE,One Glove Group Bhd,Health technology
+9741,ROHAS,Rohas Tecnic Bhd.,Producer manufacturing
+5152,MBL,Muar Ban Lee Group Bhd.,Process industries
+7219,AIZO,AIZO Group Berhad,Industrial services
+5533,OCB,OCB Bhd.,Distribution services
+7028,ZECON,Zecon Bhd.,Industrial services
+7765,RAPID,Rapid Synergy Bhd.,Finance
+5149,TAS,TAS Offshore Bhd.,Producer manufacturing
+0064,EFFICEN,Efficient E-Solutions Bhd.,Technology services
+5068,LUSTER,Luster Industries Bhd.,Producer manufacturing
+9369,TGL,Teo Guan Lee Corp. Bhd.,Consumer non-durables
+7176,TPC,TPC Plus Bhd.,Consumer non-durables
+0252,ORGABIO,Orgabio Holdings Bhd.,Consumer non-durables
+0117,SMRT,SMRT Holdings Berhad,Commercial services
+0253,INFOTEC,Infoline Tec Group Bhd,Technology services
+3247,GUH,GUH Holdings Bhd.,Consumer durables
+0237,HAILY,Haily Group Bhd.,Consumer durables
+0283,DCHCARE,DC Healthcare Holdings Bhd,Health services
+0226,ANEKA,Aneka Jaringan Holdings Bhd,Industrial services
+0025,YBS,YBS International Bhd.,Producer manufacturing
+8346,PRKCORP,Perak Corp. Bhd.,Transportation
+0038,ARTRONIQ,Artroniq Bhd.,Distribution services
+5087,MYCRON,Mycron Steel Bhd.,Non-energy minerals
+7247,SCGM,SCGM Bhd.,Process industries
+0163,CAREPLS,Careplus Group Bhd.,Producer manufacturing
+5011,MSNIAGA,Mesiniaga Bhd.,Technology services
+5062,HUAYANG,Hua Yang Bhd.,Finance
+0011,BTECH,Brite-Tech Bhd.,Industrial services
+0054,KARYON,Karyon Industries Bhd.,Process industries
+5190,BENALEC,Benalec Holdings Bhd.,Industrial services
+6068,PCCS,PCCS Group Bhd.,Consumer non-durables
+5223,MENTIGA,Mentiga Corp. Bhd.,Process industries
+0280,MBN,MYMBN Bhd,Process industries
+7214,ARANK,A-Rank Bhd.,Non-energy minerals
+7033,HIGHTEC,Kumpulan H&L High-Tech Bhd.,Producer manufacturing
+7227,UMSNGB,UMS-Neiken Group Bhd.,Producer manufacturing
+0347,DENGKIL,Wawasan Dengkil Holdings Bhd,Industrial services
+0211,TASHIN,Tashin Holdings Bhd.,Non-energy minerals
+0362,ASM,ASM Automation Group Berhad,Producer manufacturing
+7184,G3,G3 Global Bhd,Technology services
+0229,MOBILIA,Mobilia Holdings Bhd,Consumer durables
+8486,LIONPSIM,Lion Posim Bhd.,Non-energy minerals
+3018,OLYMPIA,Olympia Industries Bhd.,Consumer services
+5036,EDARAN,Edaran Bhd.,Technology services
+9075,THETA,Theta Edge Bhd.,Technology services
+5129,MELATI,Melati Ehsan Holdings Bhd.,Industrial services
+7020,ASTEEL,ASTEEL Group Bhd,Producer manufacturing
+9997,PENSONI,Pensonic Holdings Bhd.,Consumer durables
+8079,LEESK,Lee Swee Kiat Group Bhd.,Non-energy minerals
+7209,CHEETAH,Cheetah Holdings Bhd.,Consumer non-durables
+7811,SAPIND,Sapura Industrial Bhd.,Producer manufacturing
+7803,HEXCARE,Hextar Healthcare Bhd,Producer manufacturing
+5037,COMPUGT,Compugates Holdings Bhd.,Distribution services
+5231,PBSB,PBS Bhd,Transportation
+0352,WTEC,WTEC GROUP BHD,Process industries
+7222,IMASPRO,Imaspro Corp. Bhd.,Process industries
+5297,TJSETIA,Tuju Setia Bhd.,Industrial services
+0171,PLABS,PeterLabs Holdings Bhd.,Process industries
+5291,HPMT,HPMT Holdings Bhd.,Producer manufacturing
+9881,LSTEEL,Leader Steel Holdings Bhd.,Non-energy minerals
+0333,VANZO,Vanzo Holdings Bhd,Process industries
+7066,YONGTAI,Yong Tai Bhd.,Finance
+0034,MMAG,MMAG Holdings Bhd.,Technology services
+0350,MSB,MSB Global Group Bhd.,Distribution services
+4235,LIONIND,Lion Industries Corp. Bhd.,Non-energy minerals
+7692,MYTECH,MyTech Group Berhad,Producer manufacturing
+6173,BDB,Bina Darulaman Bhd.,Industrial services
+7145,TXCD,Txcd Bhd,Industrial services
+5252,SASBADI,Sasbadi Holdings Bhd,Consumer services
+0197,WEGMANS,Wegmans Holdings Bhd.,Consumer durables
+0156,MPAY,ManagePay Systems Bhd.,Commercial services
+5095,HEVEA,HeveaBoard Bhd.,Producer manufacturing
+0143,KEYASIC,Key ASIC Bhd.,Electronic technology
+7078,AZRB,Ahmad Zaki Resources Bhd.,Industrial services
+0102,WAJA,Waja Konsortium Bhd,Electronic technology
+0306,SMART,Smart Asia Chemical Bhd,Process industries
+8494,LBICAP,LBI Capital Bhd.,Finance
+5242,SOLID,Solid Automotive Bhd.,Distribution services
+7234,LOTUSCIR,Lotus Circular Bhd,Retail trade
+4464,PHB,Pegasus Heights Bhd,Distribution services
+0113,MMSV,MMS Ventures Bhd.,Producer manufacturing
+7062,KHIND,Khind Holdings Bhd.,Consumer durables
+5207,SBCCORP,SBC Corporation Berhad,Finance
+0096,NEXGRAM,Nexgram Holdings Berhad,Distribution services
+7053,SEEHUP,See Hup Consolidated Bhd.,Transportation
+7152,JAYCORP,Jaycorp Berhad,Consumer durables
+7240,IHB,Infraharta Holdings Bhd.,Consumer durables
+0221,TCS,TCS Group Holdings Bhd,Consumer durables
+7070,VIZIONE,Vizione Holdings Bhd.,Industrial services
+7544,QUALITY,Quality Concrete Holdings Bhd.,Non-energy minerals
+0203,SMETRIC,Securemetric Berhad,Electronic technology
+7498,RALCO,Ralco Corp. Bhd.,Process industries
+0238,CEKD,CEKD Bhd,Producer manufacturing
+0200,REVENUE,Revenue Group Bhd.,Electronic technology
+0332,TOPVISN,Topvision Eye Specialist Bhd,Health services
+0123,PRIVA,Privasia Technology Bhd.,Technology services
+6076,ENCORP,Encorp Bhd.,Finance
+7016,CHUAN,Chuan Huat Resources Bhd.,Distribution services
+0155,MGRC,Malaysian Genomics Resource Centre Bhd.,Health services
+5065,ORNA,Ornapaper Bhd.,Process industries
+8141,MJPERAK,Majuperak Holdings Bhd.,Finance
+8885,AVI,Avillion Bhd,Consumer services
+0467,ENEST,Enest Group Bhd.,Process industries
+0129,SRIDGE,Silver Ridge Holdings Bhd.,Communications
+4596,SAPRES,Sapura Resources Bhd.,Finance
+4359,TURIYA,Turiya Bhd.,Electronic technology
+7168,PRG,PRG Holdings Berhad,Process industries
+7099,MAYU,MAYU GLOBAL GROUP Bhd,Consumer durables
+7123,MAXLAND,Maxland Bhd,Non-energy minerals
+8338,DATAPRP,Dataprep Holdings Bhd.,Technology services
+8745,S&FCAP,S & F Capital Bhd.,Non-energy minerals
+7382,GLBHD,Golden Land Bhd.,Finance
+5197,FLBHD,Focus Lumber Bhd.,Producer manufacturing
+0218,ACO,ACO Group Bhd,Distribution services
+9318,FITTERS,Fitters Diversified Bhd.,Producer manufacturing
+0342,RTECH,Richtech Digital Berhad,Technology services
+5178,INGENIEU,Ingenieur Gudang Bhd,Industrial services
+5163,SEB,Seremban Engineering Bhd.,Producer manufacturing
+0315,KUCINGKO,Kucingko Sdn Bhd,Consumer services
+7315,AHB,AHB Holdings Bhd.,Consumer durables
+7128,CAMRES,CAM Resources Bhd.,Process industries
+7221,BSLCORP,BSL Corporation Berhad,Producer manufacturing
+7191,ADVENTA,Adventa Bhd.,Distribution services
+7676,GCAP,G Capital Bhd.,Transportation
+0183,SALUTE,Salutica Bhd.,Electronic technology
+8362,KYM,KYM Holdings Bhd.,Process industries
+0149,FIBON,Fibon Bhd.,Process industries
+5022,PAOS,Paos Holdings Bhd.,Consumer non-durables
+0282,KGW,KGW Group Bhd,Transportation
+5081,EIG,Esthetics International Group Bhd.,Consumer services
+0051,CUSCAPI,Cuscapi Bhd.,Commercial services
+0195,BINACOM,Binasat Communications Bhd.,Communications
+2283,ZELAN,Zelan Bhd.,Industrial services
+7223,JADI,Jadi Imaging Holdings Bhd.,Process industries
+5165,DFCITY,DFCITY Group Bhd.,Non-energy minerals
+0145,TFP,TFP Solutions Bhd.,Commercial services
+3778,MELEWAR,Melewar Industrial Group Bhd.,Non-energy minerals
+0301,ZANTAT,Zantat Holdings Bhd.,Process industries
+7285,TOMYPAK,Tomypak Holdings Bhd.,Process industries
+0178,SEDANIA,Sedania Innovator Bhd.,Communications
+7173,TOYOVEN,Toyo Ventures Holdings Bhd.,Process industries
+5738,CHHB,Country Heights Holdings Bhd.,Finance
+0048,ANCOMLB,Ancom Logistics Bhd.,Transportation
+7050,WONG,Wong Engineering Corp. Bhd.,Producer manufacturing
+4375,SMI,South Malaysia Industries Bhd.,Producer manufacturing
+0160,HHHCORP,Hiap Huat Holdings Bhd.,Energy minerals
+7005,BIG,B.I.G. Industries Bhd.,Process industries
+0082,GPACKET,Green Packet Bhd.,Technology services
+0093,SOLUTN,Solution Group Bhd,Producer manufacturing
+0191,CABNET,Cabnet Holdings Bhd.,Industrial services
+9423,CWG,CWG Holdings Bhd.,Producer manufacturing
+7188,BTM,BTM Resources Bhd.,Non-energy minerals
+0020,NETX,NetX Holdings Bhd.,Technology services
+9377,FSBM,FSBM Holdings Bhd.,Technology services
+9814,BERTAM,Bertam Alliance Bhd.,Consumer durables
+0005,UCREST,UCrest Bhd,Technology services
+5267,XINHWA,Xin Hwa Holdings Bhd.,Transportation
+0320,HAWK,Steel Hawk Bhd.,Energy minerals
+7097,TAWIN,TA Win Holdings Bhd.,Non-energy minerals
+5167,TURBO,Turbo-Mech Bhd.,Distribution services
+0231,FLEXI,Flexidynamic Holdings Bhd,Producer manufacturing
+8605,FIHB,Federal International Holdings Bhd.,Consumer durables
+5042,TSRCAP,TSR Capital Bhd.,Industrial services
+0255,EIB,Ecoscience International Bhd.,Industrial services
+0216,SPRING,Spring Art Holdings Bhd,Consumer durables
+3441,JOHAN,Johan Holdings Bhd.,Finance
+5107,IQGROUP,IQ Group Holdings Bhd.,Electronic technology
+0322,KHB,KHPT Holdings Bhd,Producer manufacturing
+1147,GOB,Global Oriental Bhd.,Finance
+4081,PMCORP,Pan Malaysia Corp. Bhd.,Consumer non-durables
+5016,WARISAN,Warisan TC Holdings Bhd.,Commercial services
+7014,YLI,YLI Holdings Bhd.,Producer manufacturing
+5188,CNOUHUA,China Ouhua Winery Holdings Ltd.,Consumer non-durables
+9938,BRIGHT,Bright Packaging Industry Bhd.,Process industries
+7889,THRIVEN,Thriven Global Bhd.,Finance
+7226,WATTA,Watta Holding Bhd.,Distribution services
+0154,EAH,EA Holdings Bhd.,Commercial services
+0055,SERSOL,Sersol Bhd.,Process industries
+0116,FOCUS,Focus Dynamics Group Bhd.,Consumer services
+3573,LIENHOE,Lien Hoe Corp. Bhd.,Consumer services
+0162,WIDAD,Widad Group Bhd.,Consumer services
+0316,SCB,Sik Cheong Berhad,Commercial services
+7114,DNONCE,D'nonce Technology Bhd.,Electronic technology
+7186,SWSCAP,SWS Capital Bhd.,Consumer durables
+7157,CYL,CYL Corporation Berhad,Process industries
+0049,OCNCASH,Oceancash Pacific Bhd.,Process industries
+9083,JETSON,Kumpulan Jetson Bhd.,Producer manufacturing
+7201,PICORP,Progressive Impact Corp. Bhd.,Commercial services
+0312,OFB,Ocean Fresh Bhd.,Consumer non-durables
+0069,VINVEST,Vinvest Capital Holdings Bhd,Industrial services
+1198,MAA,MAA Group Bhd.,Finance
+0140,XOXNET,XOX NETWORKS BERHAD,Consumer services
+0179,BIOHLDG,Bioalpha Holdings Bhd.,Health technology
+0103,MNC,MNC Wireless Bhd.,Communications
+0158,SCC,SCC Holdings Bhd.,Distribution services
+7031,AMTEL,Amtel Holdings Bhd.,Technology services
+0080,STRAITS,Straits Energy Resources Bhd,Distribution services
+1643,LANDMRK,Landmarks Bhd.,Consumer services
+0109,SCBUILD,SC Estate Builder Bhd.,Industrial services
+7086,ABLEGRP,AbleGroup Bhd.,Non-energy minerals
+0165,XOX,XOX Bhd.,Communications
+8478,HWATAI,Hwa Tai Industries Bhd.,Consumer non-durables
+5187,HBGLOB,HB Global Ltd.,Consumer non-durables
+0199,TRIMODE,Tri-Mode System (M) Bhd.,Transportation
+0190,ESAFE,Eversafe Rubber Bhd.,Consumer durables
+5104,CNH,Citra Nusa Holdings Bhd,Consumer non-durables
+0188,HLT,HLT Global Bhd.,Consumer non-durables
+0122,AIM,Advance Information Marketing Bhd.,Commercial services
+7181,ARBB,ARB Bhd.,Technology services
+9393,ITRONIC,Industronics Bhd.,Electronic technology
+6297,BOXPAK,Box-Pak (Malaysia) Bhd.,Process industries
+0029,DIGISTA,Digistar Corp. Bhd.,Technology services
+6041,FARLIM,Farlim Group (Malaysia) Bhd.,Finance
+8044,CFM,Computer Forms (Malaysia) Bhd.,Commercial services
+5048,YB,YB Ventures Bhd.,Producer manufacturing
+7986,CNASIA,CN Asia Corporation Bhd.,Producer manufacturing
+6637,PNEPCB,PNE PCB Bhd.,Electronic technology
+7218,ARKA,ARKA Bhd,Commercial services
+7149,ENGKAH,Eng Kah Corp. Bhd.,Consumer non-durables
+0132,TDEX,Technodex Bhd.,Commercial services
+0086,YGL,YGL Convergence Bhd.,Technology services
+0118,TRIVE,Trive Property Group Bhd.,Electronic technology
+5156,XDL,XiDeLang Holdings Ltd.,Consumer non-durables
+5649,GPHAROS,Golden Pharos Bhd.,Producer manufacturing
+7025,WOODLAN,Woodlandor Holdings Bhd.,Non-energy minerals
+0081,REKATECH,Rekatech Capital Bhd,Commercial services
+0072,ERDASAN,Erdasan Group Bhd,Producer manufacturing
+0022,PARLO,Parlo Bhd,Consumer services
+0170,KANGER,Kanger International Bhd.,Producer manufacturing
+7007,ARK,ARK Resources Holdings Bhd.,Industrial services
+8923,JIANKUN,Jiankun International Bhd,Process industries
+7080,PERMAJU,Permaju Industries Bhd.,Retail trade
+8966,TECHBASE,Techbase Industries Berhad,Consumer non-durables
+0092,MTOUCHE,mTouche Technology Bhd.,Technology services
+9601,HWGB,Ho Wah Genting Bhd.,Producer manufacturing
+7096,JOE,Joe Holding Bhd.,Consumer durables
+9539,MUH,Multi-Usage Holdings Bhd.,Finance
+0070,MQTECH,MQ Technology Bhd.,Producer manufacturing
+6254,PDZ,PDZ Holdings Bhd.,Transportation
+0066,VSOLAR,Vsolar Group Bhd.,Technology services
+6211,KIALIM,Kia Lim Bhd.,Non-energy minerals
+9091,EMICO,Emico Holdings Bhd.,Producer manufacturing
+5568,APB,APB Resources Bhd.,Producer manufacturing
+0133,SANICHI,Sanichi Technology Bhd.,Producer manufacturing
+5265,OASIS,Oasis Harvest Corporation Bhd,Producer manufacturing
+7017,KOMARK,Komarkcorp Bhd.,Commercial services
+0094,ZENTECH,Zen Tech International Bhd,Producer manufacturing
+5169,HOHUP,Ho Hup Construction Co. Bhd.,Finance
+0084,FAST,Fast Energy Holdings Bhd,Transportation
+0059,ECOHLDS,Ecobuilt Holdings Bhd.,Industrial services
+0079,ALRICH,Aldrich Resources Bhd,Commercial services
+0174,EVD,EVD Bhd,Technology services
+0150,FINTEC,Fintec Global Bhd,Commercial services
+0182,LKL,LKL International Bhd.,Health technology
+0152,DGB,DGB Asia Bhd,Consumer services
+5157,SG,Saudigold Group Bhd,Consumer non-durables
+0187,BCMALL,BCM Alliance Bhd.,Consumer durables
+0043,MTRONIC,Metronic Global Bhd.,Technology services
+0085,MLAB,Mlabs Systems Bhd.,Consumer durables
+7146,AEM,AE Multi Holdings Bhd.,Electronic technology
+4405,TCHONG,Tan Chong Motor Holdings Bhd.,Consumer durables
+2739,TECHNAX,Techna-X Bhd.,Process industries
+0036,KGROUP,Key Alliance Group Berhad,Consumer durables
+0169,SMTRACK,SMTrack Bhd.,Electronic technology
+7018,CME,CME Group Bhd.,Consumer durables
+0075,LYC,LYC Healthcare Bhd.,Technology services
+5040,MERIDIAN,Meridian Berhad,Finance
+0091,PGB,Propel Global Bhd.,Industrial services
+03011,AMLEX,Amlex Holdings Bhd.,Electronic technology
+7722,ASIABRN,Asia Brands Bhd.,Distribution services
+7094,EUROSP,Eurospan Holdings Bhd.,Consumer durables
+9148,GBAY,Greater Bay Holdings Bhd,Process industries
+0147,INNITY,Innity Corp. Bhd.,Commercial services
+8672,KAMDAR,Kamdar Group (M) Bhd.,Retail trade
+5035,KNUSFOR,Knusford Bhd.,Industrial services
+0288,MINOX,Minox International Group Bhd,Distribution services
+6114,MKH,MKH Berhad,Finance
+03027,MMIS,MMIS Bhd.,Producer manufacturing
+2682,PARKWD,Parkwood Holdings Bhd.,Finance
+03023,SMILE,Smile-Link Healthcare Global Bhd.,Health services
+7132,SMISCOR,SMIS Corp. Bhd.,Producer manufacturing
+03050,SUNMOW,Sunmow Holding Bhd,Industrial services
+9717,SYCAL,Sycal Ventures Berhad,Non-energy minerals
+03061,TPTEC,TP Tec Holding Bhd.,Distribution services
+7137,UMS,UMS Holdings Bhd.,Distribution services
+0232,VOLCANO,Volcano Bhd.,Producer manufacturing
+7203,WANGZNG,Wang-Zheng Bhd.,Process industries

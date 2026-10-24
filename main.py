@@ -41,6 +41,7 @@ class StockApp(tk.Tk):
         self.data = None       # last fetched DataFrame
         self.currency = None
         self.symbol = None
+        self.choices = []      # every dropdown entry for the current market
 
         # Mouse interaction state, rebuilt on every redraw.
         self.ax = self.vol_ax = None
@@ -75,10 +76,15 @@ class StockApp(tk.Tk):
         market_box.pack(fill=tk.X, pady=(0, 10))
         market_box.bind("<<ComboboxSelected>>", lambda _e: self._on_market_change())
 
-        ttk.Label(panel, text="Company (or type a ticker)").pack(anchor="w")
-        self.company_box = ttk.Combobox(panel, textvariable=self.company, width=30)
+        ttk.Label(panel, text="Company (type to search, ↓ to list)").pack(anchor="w")
+        # Let the dropdown list spill past the box so long company names aren't cut off.
+        ttk.Style(self).configure("Company.TCombobox", postoffset=(0, 0, 160, 0))
+        self.company_box = ttk.Combobox(panel, textvariable=self.company, width=30,
+                                        style="Company.TCombobox")
         self.company_box.pack(fill=tk.X)
         self.company_box.bind("<Return>", lambda _e: self.fetch_and_plot())
+        self.company_box.bind("<KeyRelease>", lambda _e: self._filter_companies())
+        self.company_box.bind("<<ComboboxSelected>>", lambda _e: self._filter_companies())
         self.example = ttk.Label(panel, foreground="gray")
         self.example.pack(anchor="w", pady=(0, 10))
 
@@ -151,10 +157,19 @@ class StockApp(tk.Tk):
 
     def _on_market_change(self):
         m = MARKETS[self.market.get()]
-        choices = [f"{name} ({ticker})" for name, ticker in m.popular.items()]
-        self.company_box["values"] = choices
-        self.company.set(choices[0] if choices else "")
+        self.choices = [f"{name} ({ticker})" for name, ticker in m.popular.items()]
+        self.company_box["values"] = self.choices
+        self.company.set(self.choices[0] if self.choices else "")
         self.example.config(text=f"e.g. {m.example}")
+
+    def _filter_companies(self):
+        """Narrow the dropdown to companies containing the typed text; a picked one shows them all."""
+        text = self.company.get()
+        if text in self.choices:
+            matches = self.choices
+        else:
+            matches = [c for c in self.choices if text.strip().lower() in c.lower()]
+        self.company_box["values"] = matches
 
     def _on_period_change(self):
         days = PERIODS.get(self.period.get())

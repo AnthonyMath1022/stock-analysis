@@ -1,8 +1,11 @@
 import re
 from dataclasses import dataclass, field
+from pathlib import Path
 
 import pandas as pd
 import yfinance as yf
+
+BURSA_STOCKS = Path(__file__).parent / "data" / "bursa_stocks.csv"  # from update_bursa_stocks.py
 
 
 @dataclass(frozen=True)
@@ -15,6 +18,26 @@ class Market:
     dash_classes: bool = False  # Yahoo writes share classes with "-" (BRK.B -> BRK-B)
     popular: dict = field(default_factory=dict)  # company name -> ticker, for dropdowns
     exchanges: tuple = ()    # Yahoo screener exchange codes, for finding peers on this market
+    aliases: dict = field(default_factory=dict)  # other names users type -> ticker
+
+
+def _bursa_stocks() -> tuple[dict, dict]:
+    """
+    Every Bursa stock in BURSA_STOCKS, largest first, as (dropdown label -> code, short name -> code),
+    e.g. ({'MAYBANK · Malayan Banking Bhd.': '1155', ...}, {'MAYBANK': '1155', ...}).
+    Falls back to a few large caps if the file hasn't been built.
+    """
+    if not BURSA_STOCKS.exists():
+        return {"Maybank": "1155", "Public Bank": "1295", "CIMB": "1023",
+                "Tenaga Nasional": "5347", "IHH Healthcare": "5225",
+                "Petronas Chemicals": "5183"}, {}
+    # dtype=str keeps leading zeros (0318); keep_default_na stops short names like NA becoming NaN.
+    df = pd.read_csv(BURSA_STOCKS, dtype=str, keep_default_na=False)
+    return (dict(zip(df["short_name"] + " · " + df["name"], df["code"])),
+            dict(zip(df["short_name"], df["code"])))
+
+
+BURSA_POPULAR, BURSA_SHORT_NAMES = _bursa_stocks()
 
 
 # Keyed by exchange, not country: China has two exchanges with different suffixes.
@@ -28,11 +51,9 @@ MARKETS = {
     ),
     "Malaysia (Bursa)": Market(
         suffix=".KL", exchanges=("KLS",),
-        currency="MYR", pattern=r"\d{4}[A-Z]{0,2}", example="1155 (Maybank)",
-        pad=4,
-        popular={"Maybank": "1155", "Public Bank": "1295", "CIMB": "1023",
-                 "Tenaga Nasional": "5347", "IHH Healthcare": "5225",
-                 "Petronas Chemicals": "5183"},
+        # LEAP Market codes have five digits (03011).
+        currency="MYR", pattern=r"\d{4}[A-Z]{0,2}|03\d{3}", example="1155 or MAYBANK",
+        pad=4, popular=BURSA_POPULAR, aliases=BURSA_SHORT_NAMES,
     ),
     "Singapore (SGX)": Market(
         suffix=".SI", exchanges=("SES",),
@@ -117,7 +138,7 @@ def build_symbol(ticker: str, market: str) -> str:
     Normalize what the user typed into a Yahoo symbol for the given market.
 
     Examples: ('700', 'Hong Kong (HKEX)') -> '0700.HK', ('brk.b', 'United States ...') -> 'BRK-B',
-    ('1155.KL', 'Malaysia (Bursa)') -> '1155.KL'.
+    ('1155.KL', 'Malaysia (Bursa)') -> '1155.KL', ('maybank', 'Malaysia (Bursa)') -> '1155.KL'.
 
     Raises:
     ValueError: If the ticker doesn't look like a valid code for that market.
@@ -126,6 +147,7 @@ def build_symbol(ticker: str, market: str) -> str:
     ticker = ticker.strip().upper()
     if m.suffix and ticker.endswith(m.suffix.upper()):  # user already typed the suffix
         ticker = ticker[: -len(m.suffix)]
+    ticker = m.aliases.get(ticker, ticker)
     if m.dash_classes:
         ticker = ticker.replace(".", "-")
     if m.pad and ticker.isdigit():
