@@ -1,7 +1,6 @@
 
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 from scipy.optimize import minimize
 
 
@@ -22,15 +21,23 @@ class MarkowitzPortfolio:
 
         return (portfolio_return - risk_free_rate) / portfolio_volatility
 
-    def plot_efficient_frontier(
+    def efficient_frontier(
         self, mean_returns, cov_matrix,
         risk_free_rate=0.04,
         num_portfolios=10000,
         frontier_points=60,
         seed=42
     ):
-        # Inputs must be annualized.
-        # Expect a pandas Series and aligned covariance DataFrame.
+        """
+        Optimise long-only portfolios without drawing anything, so it can run off the GUI thread.
+
+        Inputs must be annualized: a pandas Series of mean returns and the covariance DataFrame
+        of the same assets.
+
+        Returns a dict with the maximum Sharpe and minimum variance portfolios (weights, return,
+        volatility), the efficient frontier (volatility, return) and randomly simulated
+        portfolios (volatility, return, sharpe).
+        """
         assets = mean_returns.index
         mu = mean_returns.to_numpy(dtype=float)
         cov = cov_matrix.loc[assets, assets].to_numpy(dtype=float)
@@ -142,13 +149,50 @@ class MarkowitzPortfolio:
             where=simulated_vols > 1e-12
         )
 
-        # 5. Plot results
+        # 5. Return reusable results
+        return {
+            "max_sharpe_weights": pd.Series(
+                max_sharpe.x, index=assets, name="weight"
+            ),
+            "max_sharpe_return": max_return,
+            "max_sharpe_volatility": max_vol,
+            "max_sharpe_ratio": -max_sharpe.fun,
+            "min_variance_weights": pd.Series(
+                min_variance.x, index=assets, name="weight"
+            ),
+            "min_variance_return": min_return,
+            "min_variance_volatility": min_vol,
+            "efficient_frontier": frontier,
+            "simulated_portfolios": pd.DataFrame({
+                "volatility": simulated_vols,
+                "return": simulated_returns,
+                "sharpe": simulated_sharpes,
+            }),
+        }
+
+    def plot_efficient_frontier(
+        self, mean_returns, cov_matrix,
+        risk_free_rate=0.04,
+        num_portfolios=10000,
+        frontier_points=60,
+        seed=42
+    ):
+        # Imported here so the desktop app, which draws its own chart, never touches pyplot.
+        import matplotlib.pyplot as plt
+
+        results = self.efficient_frontier(
+            mean_returns, cov_matrix, risk_free_rate,
+            num_portfolios, frontier_points, seed
+        )
+        frontier = results["efficient_frontier"]
+        simulated = results["simulated_portfolios"]
+
         fig, ax = plt.subplots(figsize=(11, 7))
 
         points = ax.scatter(
-            simulated_vols,
-            simulated_returns,
-            c=simulated_sharpes,
+            simulated["volatility"],
+            simulated["return"],
+            c=simulated["sharpe"],
             cmap="viridis",
             s=8,
             alpha=0.35
@@ -163,13 +207,13 @@ class MarkowitzPortfolio:
         )
 
         ax.scatter(
-            max_vol, max_return,
+            results["max_sharpe_volatility"], results["max_sharpe_return"],
             marker="*", s=300, color="red",
             label="Maximum Sharpe"
         )
 
         ax.scatter(
-            min_vol, min_return,
+            results["min_variance_volatility"], results["min_variance_return"],
             marker="D", s=100, color="green",
             label="Minimum Variance"
         )
@@ -180,19 +224,4 @@ class MarkowitzPortfolio:
         ax.legend()
         fig.colorbar(points, ax=ax, label="Sharpe Ratio")
 
-        # 6. Return reusable results
-        allocation = pd.Series(
-            max_sharpe.x, index=assets, name="weight"
-        )
-
-        return {
-            "max_sharpe_weights": allocation,
-            "max_sharpe_return": max_return,
-            "max_sharpe_volatility": max_vol,
-            "max_sharpe_ratio": -max_sharpe.fun,
-            "min_variance_weights": pd.Series(
-                min_variance.x, index=assets, name="weight"
-            ),
-            "efficient_frontier": frontier,
-            "figure": fig
-        }
+        return {**results, "figure": fig}

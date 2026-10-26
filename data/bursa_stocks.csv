@@ -723,7 +723,6 @@ code,short_name,name,sector
 7033,HIGHTEC,Kumpulan H&L High-Tech Bhd.,Producer manufacturing
 7227,UMSNGB,UMS-Neiken Group Bhd.,Producer manufacturing
 0347,DENGKIL,Wawasan Dengkil Holdings Bhd,Industrial services
-0211,TASHIN,Tashin Holdings Bhd.,Non-energy minerals
 0362,ASM,ASM Automation Group Berhad,Producer manufacturing
 7184,G3,G3 Global Bhd,Technology services
 0229,MOBILIA,Mobilia Holdings Bhd,Consumer durables
@@ -845,7 +844,6 @@ code,short_name,name,sector
 5267,XINHWA,Xin Hwa Holdings Bhd.,Transportation
 0320,HAWK,Steel Hawk Bhd.,Energy minerals
 7097,TAWIN,TA Win Holdings Bhd.,Non-energy minerals
-5167,TURBO,Turbo-Mech Bhd.,Distribution services
 0231,FLEXI,Flexidynamic Holdings Bhd,Producer manufacturing
 8605,FIHB,Federal International Holdings Bhd.,Consumer durables
 5042,TSRCAP,TSR Capital Bhd.,Industrial services
@@ -965,11 +963,14 @@ code,short_name,name,sector
 6114,MKH,MKH Berhad,Finance
 03027,MMIS,MMIS Bhd.,Producer manufacturing
 2682,PARKWD,Parkwood Holdings Bhd.,Finance
+7248,SLP,SLP Resources Bhd.,Producer manufacturing
 03023,SMILE,Smile-Link Healthcare Global Bhd.,Health services
 7132,SMISCOR,SMIS Corp. Bhd.,Producer manufacturing
 03050,SUNMOW,Sunmow Holding Bhd,Industrial services
 9717,SYCAL,Sycal Ventures Berhad,Non-energy minerals
+0211,TASHIN,Tashin Holdings Bhd.,Non-energy minerals
 03061,TPTEC,TP Tec Holding Bhd.,Distribution services
-7137,UMS,UMS Holdings Bhd.,Distribution services
 0232,VOLCANO,Volcano Bhd.,Producer manufacturing
 7203,WANGZNG,Wang-Zheng Bhd.,Process industries
+5167,TURBO,Turbo-Mech Bhd.,Distribution services
+7137,UMS,UMS Holdings Bhd.,Distribution services

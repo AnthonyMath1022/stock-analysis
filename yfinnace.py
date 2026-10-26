@@ -5,7 +5,7 @@ from pathlib import Path
 import pandas as pd
 import yfinance as yf
 
-BURSA_STOCKS = Path(__file__).parent / "data" / "bursa_stocks.csv"  # from update_bursa_stocks.py
+DATA = Path(__file__).parent / "data"   # stock lists built by update_stock_lists.py
 
 
 @dataclass(frozen=True)
@@ -19,22 +19,41 @@ class Market:
     popular: dict = field(default_factory=dict)  # company name -> ticker, for dropdowns
     exchanges: tuple = ()    # Yahoo screener exchange codes, for finding peers on this market
     aliases: dict = field(default_factory=dict)  # other names users type -> ticker
+    benchmark: str = ""       # Yahoo symbol of the market's main index, for beta and alpha
+    benchmark_name: str = ""  # short name of that index, e.g. 'KLCI'
+
+
+def _read_stock_list(filename: str) -> pd.DataFrame | None:
+    """A stock list from DATA, largest first, or None if it hasn't been built."""
+    if not (DATA / filename).exists():
+        return None
+    # dtype=str keeps leading zeros (0318); keep_default_na stops short names like NA becoming NaN.
+    return pd.read_csv(DATA / filename, dtype=str, keep_default_na=False)
 
 
 def _bursa_stocks() -> tuple[dict, dict]:
     """
-    Every Bursa stock in BURSA_STOCKS, largest first, as (dropdown label -> code, short name -> code),
-    e.g. ({'MAYBANK · Malayan Banking Bhd.': '1155', ...}, {'MAYBANK': '1155', ...}).
-    Falls back to a few large caps if the file hasn't been built.
+    Every Bursa stock as (dropdown label -> code, short name -> code), e.g.
+    ({'MAYBANK · Malayan Banking Bhd.': '1155', ...}, {'MAYBANK': '1155', ...}).
+    Falls back to a few large caps if the list hasn't been built.
     """
-    if not BURSA_STOCKS.exists():
+    df = _read_stock_list("bursa_stocks.csv")
+    if df is None:
         return {"Maybank": "1155", "Public Bank": "1295", "CIMB": "1023",
                 "Tenaga Nasional": "5347", "IHH Healthcare": "5225",
                 "Petronas Chemicals": "5183"}, {}
-    # dtype=str keeps leading zeros (0318); keep_default_na stops short names like NA becoming NaN.
-    df = pd.read_csv(BURSA_STOCKS, dtype=str, keep_default_na=False)
     return (dict(zip(df["short_name"] + " · " + df["name"], df["code"])),
             dict(zip(df["short_name"], df["code"])))
+
+
+def _sgx_stocks() -> dict:
+    """Every SGX stock as company name -> code, e.g. {'DBS Group Holdings Ltd': 'D05', ...}.
+    Falls back to a few large caps if the list hasn't been built."""
+    df = _read_stock_list("sgx_stocks.csv")
+    if df is None:
+        return {"DBS": "D05", "OCBC": "O39", "UOB": "U11", "Singtel": "Z74",
+                "CapitaLand Integrated Commercial Trust": "C38U"}
+    return dict(zip(df["name"], df["code"]))
 
 
 BURSA_POPULAR, BURSA_SHORT_NAMES = _bursa_stocks()
@@ -44,6 +63,7 @@ BURSA_POPULAR, BURSA_SHORT_NAMES = _bursa_stocks()
 MARKETS = {
     "United States (NYSE/Nasdaq)": Market(
         suffix="", exchanges=("NMS", "NGM", "NCM", "NYQ", "ASE"),
+        benchmark="^GSPC", benchmark_name="S&P 500",
         currency="USD", pattern=r"[A-Z]{1,5}(-[A-Z])?", example="AAPL, BRK.B",
         dash_classes=True,
         popular={"Apple": "AAPL", "Microsoft": "MSFT", "NVIDIA": "NVDA",
@@ -51,18 +71,20 @@ MARKETS = {
     ),
     "Malaysia (Bursa)": Market(
         suffix=".KL", exchanges=("KLS",),
+        benchmark="^KLSE", benchmark_name="KLCI",
         # LEAP Market codes have five digits (03011).
         currency="MYR", pattern=r"\d{4}[A-Z]{0,2}|03\d{3}", example="1155 or MAYBANK",
         pad=4, popular=BURSA_POPULAR, aliases=BURSA_SHORT_NAMES,
     ),
     "Singapore (SGX)": Market(
         suffix=".SI", exchanges=("SES",),
+        benchmark="^STI", benchmark_name="STI",
         currency="SGD", pattern=r"[A-Z0-9]{3,4}", example="D05 (DBS)",
-        popular={"DBS": "D05", "OCBC": "O39", "UOB": "U11", "Singtel": "Z74",
-                 "CapitaLand Integrated Commercial Trust": "C38U"},
+        popular=_sgx_stocks(),
     ),
     "Hong Kong (HKEX)": Market(
         suffix=".HK", exchanges=("HKG",),
+        benchmark="^HSI", benchmark_name="Hang Seng",
         currency="HKD", pattern=r"\d{4,5}", example="0700 (Tencent)",
         pad=4,
         popular={"Tencent": "0700", "Alibaba": "9988", "HSBC": "0005", "AIA": "1299",
@@ -70,6 +92,7 @@ MARKETS = {
     ),
     "China (Shanghai)": Market(
         suffix=".SS", exchanges=("SHH",),
+        benchmark="000001.SS", benchmark_name="SSE Composite",
         currency="CNY", pattern=r"[569]\d{5}", example="600519 (Kweichow Moutai)",
         pad=6,
         popular={"Kweichow Moutai": "600519", "ICBC": "601398",
@@ -77,6 +100,7 @@ MARKETS = {
     ),
     "China (Shenzhen)": Market(
         suffix=".SZ", exchanges=("SHZ",),
+        benchmark="399001.SZ", benchmark_name="SZSE Component",
         currency="CNY", pattern=r"[0-3]\d{5}", example="300750 (CATL)",
         pad=6,
         popular={"CATL": "300750", "BYD": "002594", "Wuliangye": "000858",
@@ -84,12 +108,14 @@ MARKETS = {
     ),
     "Japan (Tokyo)": Market(
         suffix=".T", exchanges=("JPX",),
+        benchmark="^N225", benchmark_name="Nikkei 225",
         currency="JPY", pattern=r"[0-9][0-9A-Z]{3}", example="7203 (Toyota)",
         popular={"Toyota": "7203", "Sony": "6758", "SoftBank Group": "9984",
                  "Mitsubishi UFJ": "8306", "Nintendo": "7974", "Keyence": "6861"},
     ),
     "United Kingdom (London)": Market(
         suffix=".L", exchanges=("LSE",),
+        benchmark="^FTSE", benchmark_name="FTSE 100",
         currency="GBP", pattern=r"[A-Z0-9]{2,4}(-[A-Z])?", example="SHEL (Shell)",
         dash_classes=True,
         popular={"Shell": "SHEL", "AstraZeneca": "AZN", "HSBC": "HSBA",
@@ -97,18 +123,21 @@ MARKETS = {
     ),
     "India (NSE)": Market(
         suffix=".NS", exchanges=("NSI",),
+        benchmark="^NSEI", benchmark_name="Nifty 50",
         currency="INR", pattern=r"[A-Z0-9&\-]{1,20}", example="RELIANCE",
         popular={"Reliance Industries": "RELIANCE", "TCS": "TCS", "HDFC Bank": "HDFCBANK",
                  "Infosys": "INFY"},
     ),
     "Australia (ASX)": Market(
         suffix=".AX", exchanges=("ASX",),
+        benchmark="^AXJO", benchmark_name="ASX 200",
         currency="AUD", pattern=r"[A-Z0-9]{3,6}", example="CBA (CommBank)",
         popular={"Commonwealth Bank": "CBA", "BHP": "BHP", "CSL": "CSL",
                  "National Australia Bank": "NAB"},
     ),
     "Canada (Toronto)": Market(
         suffix=".TO", exchanges=("TOR",),
+        benchmark="^GSPTSE", benchmark_name="TSX",
         currency="CAD", pattern=r"[A-Z]{1,5}(-[A-Z]{1,2})?", example="RY (Royal Bank)",
         dash_classes=True,
         popular={"Royal Bank of Canada": "RY", "TD Bank": "TD", "Shopify": "SHOP",
@@ -116,6 +145,7 @@ MARKETS = {
     ),
     "Germany (XETRA)": Market(
         suffix=".DE", exchanges=("GER",),
+        benchmark="^GDAXI", benchmark_name="DAX",
         currency="EUR", pattern=r"[A-Z0-9]{2,6}", example="SAP",
         popular={"SAP": "SAP", "Siemens": "SIE", "Allianz": "ALV",
                  "Deutsche Telekom": "DTE"},
@@ -202,6 +232,28 @@ def get_stock_data(ticker: str, market: str, start_date, end_date) -> tuple[pd.D
     return df.reset_index(), currency
 
 
+def get_benchmark(market: str, start_date, end_date) -> pd.Series | None:
+    """
+    Daily closes of the market's benchmark index over an inclusive date range, indexed by date.
+    None if the market has no benchmark or Yahoo can't supply it, so callers can carry on without.
+    """
+    symbol = MARKETS[market].benchmark
+    if not symbol:
+        return None
+    try:
+        df = yf.download(
+            symbol,
+            start=start_date,
+            end=pd.to_datetime(end_date) + pd.Timedelta(days=1),  # yfinance's end is exclusive
+            auto_adjust=True,
+            multi_level_index=False,
+            progress=False,
+        )
+    except Exception:
+        return None
+    return None if df.empty else df["Close"]
+
+
 def format_price(value: float, currency: str) -> str:
     """Format a price for display, e.g. (10.5, 'MYR') -> 'RM 10.50', (3000, 'JPY') -> '¥3,000'."""
     decimals = 0 if currency == "JPY" else 2
@@ -219,6 +271,18 @@ def compact_number(value: float, _pos=None) -> str:
         if abs(value) >= divisor:
             return f"{value / divisor:.1f}{unit}"
     return f"{value:.0f}"
+
+
+def format_percent(value: float, decimals: int = 1, signed: bool = False) -> str:
+    """Format a fraction as a percentage, e.g. 0.1234 -> '12.3%'; a missing value -> '—'."""
+    if pd.isna(value):
+        return "—"
+    return f"{value * 100:{'+' if signed else ''}.{decimals}f}%"
+
+
+def format_ratio(value: float) -> str:
+    """Format a ratio such as a Sharpe ratio, e.g. 1.234 -> '1.23'; a missing value -> '—'."""
+    return "—" if pd.isna(value) else f"{value:.2f}"
 
 
 def _with_currency(amount: str, currency: str) -> str:
